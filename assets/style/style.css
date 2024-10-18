@@ -1016,6 +1016,15 @@ button {
     display: none;
   }
 
+/*   SCHEDULE */
+
+  .schedule-buttons {
+    display: block;
+    padding-bottom: 30px
+  }
+
+  .schedule-buttons__first {
+    margin-bottom: 30px;
 }
 
 @media (max-width: 900px) {
