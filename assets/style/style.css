@@ -1018,9 +1018,9 @@ button {
 
 /*   SCHEDULE */
 
-  .schedule-buttons {
+  .schedule-buttons { 
     display: block;
-    padding-bottom: 30px
+    padding-bottom: 30px;
   }
 
   .schedule-buttons__first {
