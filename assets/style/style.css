@@ -272,6 +272,7 @@ button {
   background-color: #fbfafa;
   border-radius: 163px;
   padding: 17px 64px;
+  color: var(--black);
 
   transition: background-color 0.2s ease;
 }
