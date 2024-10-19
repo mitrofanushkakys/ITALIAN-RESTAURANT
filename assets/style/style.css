@@ -272,6 +272,7 @@ button {
   background-color: #fbfafa;
   border-radius: 163px;
   padding: 17px 64px;
+  color: var(--black);
 
   transition: background-color 0.2s ease;
 }
@@ -1016,13 +1017,22 @@ button {
     display: none;
   }
 
+/*   SCHEDULE */
+
+  .schedule-buttons { 
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .schedule-buttons__first {
+    margin-bottom: 30px;
+}
 }
 
 @media (max-width: 900px) {
 
   .schedule-inner {
-    /* background-image: none; */
-    /* color: var(--black); */
+    background-position: center;
     height: auto;
   }
 
@@ -1065,4 +1075,10 @@ button {
     margin: 0 auto;
     display: block;
   }
+}
+
+@media (max-width:516px) {
+	.menu-buttons button:not(:first-of-type) {
+		width: 251px;
+	}
 }
