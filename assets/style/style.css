@@ -1076,3 +1076,9 @@ button {
     display: block;
   }
 }
+
+@media (max-width:516px) {
+	.menu-buttons button:not(:first-of-type) {
+		width: 251px;
+	}
+}
