@@ -1026,12 +1026,12 @@ button {
   .schedule-buttons__first {
     margin-bottom: 30px;
 }
+}
 
 @media (max-width: 900px) {
 
   .schedule-inner {
-    /* background-image: none; */
-    /* color: var(--black); */
+    background-position: center;
     height: auto;
   }
 
